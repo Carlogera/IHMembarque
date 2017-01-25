@@ -22,5 +22,4 @@ HEADERS  += \
     model.h \
     control.h
 
-FORMS    += \
-    mainwindow.ui
+FORMS    +=
