@@ -1,5 +1,8 @@
 #include "model.h"
 
-model::model()
+Model::Model()
 {
+    mainimage = new QImage;
+    mainhold = new QImage;
+
 }

@@ -1,5 +1,8 @@
 #include "control.h"
 
-control::control()
+Control::Control(MainWindow *view, QWidget *parent) : QWidget(parent)
 {
+    model = new Model();
+    this->view = view;
+
 }

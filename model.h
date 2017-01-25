@@ -1,10 +1,17 @@
 #ifndef MODEL_H
 #define MODEL_H
 
-class model
+#include <QImage>
+
+class Model
 {
 public:
-    model();
-};
+    Model();
+    QImage *image(){return mainimage;}
+    QImage *hold(){return mainhold;}
+private:
 
+    QImage *mainimage;
+    QImage *mainhold;
+};
 #endif // MODEL_H

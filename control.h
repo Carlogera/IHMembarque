@@ -1,10 +1,21 @@
 #ifndef CONTROL_H
 #define CONTROL_H
 
-class control
+#include "model.h"
+#include "mainwindow.h"
+
+class Model;
+class MainWindow;
+
+class Control : public QWidget
 {
+    Q_OBJECT
 public:
-    control();
+    Control(MainWindow *view, QWidget *parent=0);
+
+private:
+    Model* model;
+    MainWindow *view;
 };
 
 #endif // CONTROL_H
