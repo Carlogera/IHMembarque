@@ -2,13 +2,19 @@
 #include "ui_mainwindow.h"
 
 MainWindow::MainWindow(QWidget *parent) :
-    QMainWindow(parent),
-    ui(new Ui::MainWindow)
+    QMainWindow(parent)
 {
-    ui->setupUi(this);
+    control = new Control (this);
+
 }
 
-MainWindow::~MainWindow()
+
+/*void changementcouleur()
 {
-    delete ui;
-}
+
+}*/
+
+/*void changementepaisseur()
+{
+
+}*/

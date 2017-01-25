@@ -12,9 +12,14 @@ TARGET = IHMembarquee
 TEMPLATE = app
 
 
-SOURCES += main.cpp\
-        mainwindow.cpp
+SOURCES += main.cpp \
+    mainwindow.cpp \
+    model.cpp \
+    control.cpp
 
-HEADERS  += mainwindow.h
+HEADERS  += \
+    mainwindow.h \
+    model.h \
+    control.h
 
-FORMS    += mainwindow.ui
+FORMS    +=
